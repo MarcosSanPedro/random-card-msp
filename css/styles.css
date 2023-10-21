@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 121, 11);
+    overflow: hidden;
+
+}
+
+.container{
+    width: 450px;
+    height: 590px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.clubs{
+    font-size: 7em;
+    margin-left: 20px;
+    
+}
+
+.number{
+    height: 250px;
+    width: 50px;
+    margin: auto;
+    font-size: 8rem;
+    margin-top: 70px;
+}
+
+.turn{
+    transform: rotate(180deg);
+    margin-right: 20px;
+    font-size: 7em;
+}
+
